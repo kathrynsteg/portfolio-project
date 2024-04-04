@@ -23,6 +23,10 @@ p {
   line-height: 30px;
 }
 
+img {
+  border-radius: 4px;
+}
+
 .hero {
   background-color: var(--branding-color);
   color: var(--secondary-color);
@@ -45,6 +49,23 @@ p {
   font-size: 32px;
   font-weight: 200;
   margin: 0;
+}
+
+.about-section {
+  padding: 120px 20px;
+}
+
+.about-section h1 {
+  font-size: 68px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 20px;
+}
+
+.about-section-content {
+  margin: 30px;
 }
 
 .btn-branding {
@@ -80,7 +101,7 @@ p {
 }
 
 @media (max-width: 960px) {
-  .hero h1 {
+  h1 {
     font-size: 60px;
     line-height: 1.5;
   }
@@ -98,5 +119,10 @@ p {
     padding: 0;
     text-align: center;
     line-height: 1;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
