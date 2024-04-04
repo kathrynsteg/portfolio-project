@@ -20,7 +20,7 @@ h2 {
 p {
   font-weight: 600;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 30px;
 }
 
 .hero {
@@ -63,4 +63,29 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+
+.project-description {
+  padding: 120px 60px 0;
+}
+
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
+
+  .hero h2 {
+    font-size: 44px;
+    line-height: 1.2;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
