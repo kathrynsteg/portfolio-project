@@ -65,8 +65,18 @@ p {
   padding: 12px 20px;
 }
 
+.project-overview {
+  text-align: center;
+  padding: 30px 60px 0px;
+}
+
+.project-name {
+  font-family: var(--heading-font-family);
+}
+
 .project-description {
-  padding: 120px 60px 0;
+  font-size: 18px;
+  font-style: italic;
 }
 
 @media (max-width: 960px) {
@@ -84,8 +94,9 @@ p {
     padding: 80px 20px;
   }
 
-  .project-description {
+  .project-overview {
     padding: 0;
     text-align: center;
+    line-height: 1;
   }
 }
