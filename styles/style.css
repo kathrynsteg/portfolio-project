@@ -17,6 +17,11 @@ h2 {
   font-size: 58px;
 }
 
+h4 {
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+}
+
 p {
   font-weight: 600;
   font-size: 16px;
@@ -60,21 +65,39 @@ footer {
   margin: 60px 0;
 }
 
+footer .contact-box {
+  background-color: var(--branding-color);
+  color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 4px;
+}
+
 footer .email-link {
   text-decoration: none;
   color: var(--branding-color);
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-footer .email-link:hover {
+footer .email-link:hover,
+footer .contact-button:hover {
   color: var(--secondary-color);
   background-color: var(--branding-color);
+  border-radius: 4px;
 }
 
 footer .social-links a {
-  margin: 0 20px;
+  margin: 8px;
+  color: var(--branding-color);
+  padding: 6px;
+  font-size: 20px;
+}
+
+footer .social-links a:hover {
   color: var(--secondary-color);
   background-color: var(--branding-color);
+  border-radius: 4px;
+  transition: all 70ms ease-in-out;
 }
 
 .hero {
@@ -108,6 +131,7 @@ footer .social-links a {
 .content {
   margin: 30px;
 }
+
 .content h1 {
   font-size: 68px;
   line-height: 80px;
@@ -165,7 +189,7 @@ footer .social-links a {
     margin: 18px;
   }
 
-  .hero h2 {
+  h2 {
     font-size: 36px;
     line-height: 1.3;
   }
@@ -183,5 +207,9 @@ footer .social-links a {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+
+  footer .contact-box {
+    padding: 30px;
   }
 }
