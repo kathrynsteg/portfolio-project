@@ -17,7 +17,7 @@ h2 {
   font-size: 58px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
   font-family: var(--heading-font-family);
 }
@@ -59,6 +59,7 @@ nav li.active a {
   color: var(--secondary-color);
   background-color: var(--branding-color);
   transition: all 70ms ease-in-out;
+  border-radius: 4px;
 }
 
 footer {
@@ -104,7 +105,7 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
   color: var(--secondary-color);
   text-align: center;
-  padding: 120px 20px;
+  padding: 80px 20px;
 }
 
 .hero h1 {
@@ -125,7 +126,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 120px 20px;
+  padding: 30px 20px;
 }
 
 .content {
@@ -194,10 +195,6 @@ footer .social-links a:hover {
     line-height: 1.3;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
-
   .project-overview {
     padding: 0;
     text-align: center;
@@ -211,5 +208,9 @@ footer .social-links a:hover {
 
   footer .contact-box {
     padding: 30px;
+  }
+
+  .about-photo {
+    width: 75%;
   }
 }
