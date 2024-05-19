@@ -195,6 +195,10 @@ footer .social-links a:hover {
     line-height: 1.3;
   }
 
+  .hero h1 {
+    font-size: 72px;
+  }
+
   .project-overview {
     padding: 0;
     text-align: center;
